@@ -1,0 +1,134 @@
+@font-face {
+    font-family:"Figtree"; ;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:"Figtree"; ;
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf) format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+figure{
+    width: 100%;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+}
+body {
+    font-family: "Figtree", sans-serif;
+    font-weight: 400;
+    background-color: #F4D04E;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+article{
+    background-color: #fff;
+    width: 327px;
+    border:1px solid #000;
+    border-radius: 20px;
+    box-shadow: 16px 16px 0px #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+    padding:24px;
+}
+
+.illustration> img{
+   
+    border-radius: 10px;
+  
+}
+.content{
+   
+    display: grid;
+    gap:12px;
+    line-height: 150%;
+}
+.content > h1{
+    font-size: 12px;
+    font-weight: 800;
+    background-color: #F4D04E;
+    padding: 4px 12px;
+    width: max-content;
+   
+}
+
+.content > h2{
+    font-size: 20px;
+    font-weight: 800;
+    
+}
+.content > h2:active{
+    color: #F4D04E;
+    cursor:pointer;
+ 
+}
+
+.content > .date{
+    font-size: 12px;
+    color: #000;
+}
+.content > p{
+    font-size:14px ;
+    color: #7F7F7F;
+    
+}
+.avatar{
+    
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+  
+}
+.avatar > img{
+    width: 32px;
+    height: 32px;
+   
+
+}
+.avatar  p{
+    font-size: 14px;
+    
+    font-weight: 800;
+}
+@media screen and (min-width: 1440px) {
+   article{
+       width: 484px;
+   } 
+    .content > h1{
+        font-size: 14px;
+    }
+    .content > h2{
+        font-size: 24px;
+        
+       
+    }
+   
+    .content > .date{
+        font-size: 14px;
+    }
+    .content > p{
+        font-size: 16px;
+    }
+    
+}
