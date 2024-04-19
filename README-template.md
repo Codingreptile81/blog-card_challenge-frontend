@@ -40,8 +40,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/anisbeny/blog-card_challenge-frontend.git)
+- Live Site URL: [Add live site URL here](https://anisbeny.github.io/blog-card_challenge-frontend/)
 
 ## My process
 
