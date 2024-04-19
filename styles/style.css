@@ -91,7 +91,6 @@ article{
     
 }
 .avatar{
-    
   
     display: flex;
     flex-direction: row;
@@ -113,15 +112,13 @@ article{
 }
 @media screen and (min-width: 1440px) {
    article{
-       width: 484px;
+       width: 384px;
    } 
     .content > h1{
         font-size: 14px;
     }
     .content > h2{
-        font-size: 24px;
-        
-       
+        font-size: 24px;        
     }
    
     .content > .date{
